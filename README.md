@@ -2,7 +2,7 @@
 
 <br/>
 
-This app helps you how maney days have passed and how many days left in this year.<br/>
+This app helps you to know how many days have passed and how many days left in this year.<br/>
 
 APK : https://drive.google.com/open?id=1-AZKNpG1mBTKUSzKfsbZGWr5KTnU-Aw-<br/>
 
