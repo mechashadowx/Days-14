@@ -12,12 +12,12 @@ class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     super.initState();
-    final newYear = DateTime(2020, 1, 1);
     final today = DateTime.now();
     year = today.year.toString();
+    final newYear = DateTime(today.year, 1, 1);
     var difference = today.difference(newYear).inDays;
     soFar = difference.toString();
-    final nextNewYear = DateTime(2021, 1, 1);
+    final nextNewYear = DateTime((today.year + 1), 1, 1);
     difference = nextNewYear.difference(today).inDays;
     left = difference.toString();
   }
